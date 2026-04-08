@@ -583,14 +583,14 @@ function register() {
         return [`(Scratch.extensions.isPenguinMod)`, javascriptGenerator.ORDER_ATOMIC];
     })
 
-    registerBlock(`${categoryPrefix}isdinosaurmod`, {
-        message0: 'is dinosaurmod?',
+    registerBlock(`${categoryPrefix}isgaiamod`, {
+        message0: 'is gaiamod?',
         args0: [],
         output: "Boolean",
         inputsInline: true,
-        colour: '#7DD100',
+        colour: '#0007D0',
     }, (block) => {
-        return [`(Scratch.extensions.isDinosaurMod)`, javascriptGenerator.ORDER_ATOMIC];
+        return [`(Scratch.extensions.isGaiaMod)`, javascriptGenerator.ORDER_ATOMIC];
     })
 }
 export default register;

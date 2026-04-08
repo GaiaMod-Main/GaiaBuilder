@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<title>DinoBuilder - Make extensions with blocks</title>
-    	<meta name="description" content="Create TurboWarp, Penguinmod, Dinosaurmod extensions using Scratch-like block coding." />
+		<title>GaiaBuilder - Make extensions with blocks</title>
+    	<meta name="description" content="Create TurboWarp, Penguinmod, Dinosaurmod, and GaiaMod extensions using Scratch-like block coding." />
     	<meta name="keywords" content="turbowarp, extensions, blocks" />
-    	<meta name="author" content="GabsTheCuriousKid" />
-    	<meta name="theme-color" content="#80f41a" />
+    	<meta name="author" content="Gaia" />
+    	<meta name="theme-color" content="#2D2DD2" />
     	<meta name="og:image" content="/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<style id="XTI0GZwZotMzDMi0wcGctLFttIWctMdtLPXI9M0aGGDQyMHRpMViW3E="></style>
@@ -24,13 +24,13 @@
 			}
 
 			a {
-				color: #80f41a;
+				color: #2D2DD2;
 			}
 			a:hover {
-				color: #a0f753;
+				color: #5361F7;
 			}
 			a:active {
-				color: #6dd016;
+				color: #1632D0;
 			}
 
 			/* blockly overrides */
@@ -121,7 +121,7 @@
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div class="__alert_prompt" id="Zm5BSEgzQW5HeW9yZkFkNEhpbGJiamtpZmdoOGNDc2lMR29JSzF0K2JnPT0=">
-			<p style="margin-block: 0;" id="AlertPrompt">DinoBuilder is currently in development, some project files may break due to code changing all the time.</p>
+			<p style="margin-block: 0;" id="AlertPrompt">GaiaBuilder is currently in development, some project files may break due to code changing all the time.</p>
 			<button
 				style="margin: 0; margin-left: 8px; background: transparent; border: 0; outline: 0; padding: 0; cursor: pointer;"
 				onclick="document.getElementById('Zm5BSEgzQW5HeW9yZkFkNEhpbGJiamtpZmdoOGNDc2lMR29JSzF0K2JnPT0=').remove()"
@@ -213,11 +213,11 @@
 				const IsLiveTests = urlParams.has('livetests');
 
 				if (!!IsLiveTests) {
-					alertPrompt.innerHTML = "This is a dev version of DinoBuilder, this is where features are made and tested."
-					document.title = "DinoBuilder - Dev version"
+					alertPrompt.innerHTML = "This is a dev version of GaiaBuilder, this is where features are made and tested."
+					document.title = "GaiaBuilder - Dev version"
 				} else {
-					alertPrompt.innerHTML = "DinoBuilder is currently in development, some project files may break due to code changing all the time."
-					document.title = "DinoBuilder - Make extensions with blocks"
+					alertPrompt.innerHTML = "GaiaBuilder is currently in development, some project files may break due to code changing all the time."
+					document.title = "GaiaBuilder - Make extensions with blocks"
 				}
 
 				let isSiteDown = false;
@@ -227,8 +227,8 @@
 				}
 				
 				if (!!isSiteDown) {
-					alertPrompt.innerHTML = "DinoBuilder is currently dealing with some errors, we're working on fixing them."
-					document.title = "DinoBuilder is down"
+					alertPrompt.innerHTML = "GaiaBuilder is currently dealing with some errors, we're working on fixing them."
+					document.title = "GaiaBuilder is down"
 				}
 			})
 		</script>
