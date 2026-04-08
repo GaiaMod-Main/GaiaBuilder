@@ -155,8 +155,8 @@ class Compiler {
 
         const headerCode = [
             `/*`,
-            `   This extension was made with DinoBuilder!`,
-            `   https://dinobuilder.vercel.app/`,
+            `   This extension was made with GaiaBuilder!`,
+            `   https://gaiabuilder.vercel.app/`,
             `*/`,
             `(async function (Scratch) {`,
             `const variables = {};`,
