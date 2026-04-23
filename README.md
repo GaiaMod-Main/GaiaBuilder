@@ -1,7 +1,7 @@
-<img src="./icon.png" width="56" height="64" /> <img src="./icon_title.png" width="420" height="64" />
+<img src="./icon.png"/> <img src="./icon_title.png"/>
 
-# DinoBuilder
-Create extensions for TurboWarp, Penguinmod & Dinosaurmod using block-based coding.
+# GaiaBuilder
+Create extensions for TurboWarp, Penguinmod & GaiaMod using block-based coding.
 
 ## In development
 This project is not finished and is still being worked on. Expect bugs and problems that may prevent the site from working.
